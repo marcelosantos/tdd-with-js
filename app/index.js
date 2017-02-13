@@ -27,3 +27,8 @@ function sqr(a)
 {
     return Math.sqrt(a);
 }
+
+function avg(a,b)
+{
+    return (a + b) / 2;
+}

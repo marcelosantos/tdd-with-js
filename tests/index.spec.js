@@ -108,4 +108,22 @@ describe ("Calculator", function (){
         });
     });
 
+    describe('avg function',function(){
+        it('should have an avg function', function(){
+            expect(avg).toBeDefined();
+        });
+
+        it('should return 5 when passed 5 and 5', function(){
+            expect(5).toEqual(avg(5,5));
+        });
+
+        it('should return 10 when passed 10 and 10', function(){
+            expect(10).toEqual(avg(10,10));
+        });
+
+        it('should return 9 when passed 9 and 9', function(){
+            expect(9).toEqual(avg(9,9));
+        });
+    });
+
 });
